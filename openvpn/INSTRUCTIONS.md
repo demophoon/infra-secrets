@@ -28,3 +28,24 @@ Sign client CSR to generate a certificate
 Optionally generate new dhparams for server
 -------------------------------------------
 `openssl dhparam -out dhparam.pem 2048`
+
+
+Setting up openvpn client
+=========================
+
+Create a client certificate with the CA certificate.
+
+1. Install openvpn
+
+`apt-get install openvpn`
+
+2. Copy the openvpn client configuration found here:
+https://github.com/OpenVPN/openvpn/blob/master/sample/sample-config-files/client.conf
+
+3. Edit the file to uncomment the user and group directives if on *nix system.
+
+4. Add paths to the CA cert, client cert, and client keys in the client.conf file.
+
+5. Start the openvpn client:
+
+`openvpn --config openvpn.conf`
