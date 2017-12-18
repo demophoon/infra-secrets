@@ -4,3 +4,4 @@
 *.pem filter=git-crypt diff=git-crypt
 *.conf filter=git-crypt diff=git-crypt
 client-certs/* filter=git-crypt diff=git-crypt
+easy-rsa/* filter=git-crypt diff=git-crypt

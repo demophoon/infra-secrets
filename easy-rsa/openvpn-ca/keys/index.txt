@@ -1,0 +1,2 @@
+V	271215232027Z		01	unknown	/C=US/ST=OR/L=Portland/O=Britt-G/OU=router/CN=hydrogen.home.brittg.com/name=hydrogen.home.brittg.com/emailAddress=ca@brittg.com
+V	271215232242Z		02	unknown	/C=US/ST=OR/L=Portland/O=Britt-G/OU=apollo/CN=apollo.home.brittg.com/name=apollo.home.brittg.com/emailAddress=apollo.vpn.certs@brittg.com
